@@ -12,8 +12,7 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM=auto
 
 # prompt
-setopt PROMPT_SUBST ; PS1=
-	'%B%F{014}[ %~ ]%f%F{220} <$SHELL> %f%F{208}git:$(__git_ps1 "(%s)")%f%_
+setopt PROMPT_SUBST ; PS1='%B%F{014}[ %~ ]%f%F{220} <$SHELL> %f%F{208}git:$(__git_ps1 "(%s)")%f%_
 %F{002}@%n->%# %f%b'
 RPROMPT='%F{027}%B[%W_%D{%H:%M:%S}]%b%f'
 
